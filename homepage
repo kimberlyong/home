@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>My Page Title</title>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+                body { padding-top:70px; }
+		.menuCustom { background-color:darkgreen !important; }
+		.logo { padding-top:17px !important; }
+		.options { color:yellow !important; }
+    </style>
+
+    <link href="/css/theme-style.css" rel="stylesheet">
+    <script type="text/javascript">
+
+    </script>
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top menuCustom">
+		<div class="container">
+			<!-- this part of the menu will stay visible -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed"
+				data-toggle="collapse" data-target="#navbar"
+				aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand logo" href="#">
+					<!-- add image icon here-->
+
+				</a>
+			</div>
+			<!-- this part of the menu will collapse -->
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="" class="options"></a></li>
+					<li><a href="" class="options"></a></li>
+					<li><a href="" class="options"></a></li>
+					<li><a href="" class="options"></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+</body>
+</html>        
